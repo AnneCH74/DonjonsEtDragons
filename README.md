@@ -1,4 +1,4 @@
-# DonjonsEtDragons
+# Donjons et dragons
 
 Objectifs : créer un jeu, inspiré des jeux de plateaux de l'univers "Donjons et Dragons", en utilisant le langage JAVA.
 
@@ -14,7 +14,7 @@ Compétences :
 - Générer la javadoc
 
 
-STRUCTURE DU JEU ET CREATION DE PERSONNAGES :
+## STRUCTURE DU JEU ET CREATION DE PERSONNAGES :
 
 Nous allons manipuler deux types de personnages : guerrier et magicien (pour le moment une seule
 classe “Personnage”, avec un attribut de type string qui vaudra “guerrier” ou “magicien”) et leur
@@ -23,10 +23,11 @@ arme) et peut être équipé d’un EquipementDefensif (un bouclier) pour se dé
 possède un EquipementOffensif (un sort) et peut avoir un EquipementDefensif ( un) philtre pour se
 défendre.
 Chaque type de personnage est caractérisé par les attributs suivants :
-● Guerrier : Nom, Niveau de vie (10), Force d’attaque (10), EquipementOffensif,
+- Guerrier : Nom, Niveau de vie (10), Force d’attaque (10), EquipementOffensif,
 EquipementDefensif
-● Magicien : Nom, Niveau de vie (6), Force d’attaque (15), EquipementOffensif,
+- Magicien : Nom, Niveau de vie (6), Force d’attaque (15), EquipementOffensif,
 EquipementDefensif
+
 
 Le programme commence par vous proposer un premier menu :
 ● Nouveau personnage ou quitter le jeu :
@@ -40,7 +41,7 @@ informations du personnage (Guerrier ou Magicien, et nom).
 ○ Quitter le jeu : vous pouvez à tout moment quitter le jeu
 
 
-CONSEILS DE DÉVELOPPEMENT
+###CONSEILS DE DÉVELOPPEMENT
 ● Préférez le développement en anglais. Si c’est trop complexe, le français est toléré
 ● Veillez à bien nommer vos classes, fonctions et variables ainsi que répartir logiquement vos
 classes dans des packages correctement nommés.
