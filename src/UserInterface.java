@@ -47,17 +47,7 @@ public class UserInterface {
         return userCharacterName;
     }
 
-  /*  public String getCaracteristics(){
-        System.out.println("Voici les caractéristiques de votre personnage ");
-        Scanner terminal = new Scanner(System.in);
-        String Character caracteristics = terminal.nextLine();
-        //terminal.nextLine();
-        return userCharacterName;
-    }
-
-   */
 }
-
 
 
 //La classe Menu permet de structurer le déroulement du jeu et les messages pour l'utilisateur en utilisant des fonctions.

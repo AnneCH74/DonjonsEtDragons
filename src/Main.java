@@ -7,15 +7,6 @@ public class Main {
         Game donjonsEtDragons = new Game();
         donjonsEtDragons.initGame();
 
-        /*Character guerrierOuMagicien = new Character();
-        guerrierOuMagicien.initCharacter();
-
-        Character name = new Character();
-        name.initNameCharacter();
-
-        Character caracteristics = new Character();
-        caracteristics.initCaracteristics;
-*/
     }
 }
 
